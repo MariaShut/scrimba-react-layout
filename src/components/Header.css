@@ -1,0 +1,19 @@
+.header {
+  margin-bottom: 40px;
+  background-color: #F7F5F2;
+}
+
+.header__container {
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+.nav__list {
+  justify-content: space-between;
+  min-width: 200px;
+}
+
+.header__logo {
+  width: 60px;
+}

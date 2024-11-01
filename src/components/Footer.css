@@ -1,0 +1,9 @@
+.footer {
+  background-color: #203A53;
+}
+
+.footer__container {
+  margin-top: auto;
+  padding: 20px 15px;
+  color: #FCF2E7;
+}
