@@ -1,3 +1,10 @@
+:root {
+  --clr-primary: #282D35; 
+  --clr-primary-dark: #21222A;
+  --clr-base-min: #fff;
+  --clr-accent: #61DAFB;
+}
+
 html {
 	box-sizing: border-box;
 }
@@ -19,8 +26,10 @@ img {
 
 
 body {
-	font-family: Arial, Verdana, sans-serif;
+	font-family: Inter, Arial, Verdana, sans-serif;
   margin: 0;
+  background-color: var(--clr-primary);
+  color: var(--clr-base-min);
 }
 
 /* glob */
@@ -49,7 +58,7 @@ body {
   width: 100%;
 }
 
-h1 {
+h1, h2, h3, h4 {
   margin: 0;
   padding: 0;
 }

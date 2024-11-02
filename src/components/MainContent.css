@@ -1,0 +1,21 @@
+.main__heading {
+  margin-bottom: 46px;
+  font-size: 39px;
+}
+
+.facts-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  margin: 0;
+  margin-bottom: 46px;
+  padding-left: 20px;
+  max-width: 400px;
+  font-size: 16px;
+  list-style-type: disc;
+}
+
+.facts-list__item::marker {
+  font-size: 1.4rem;
+  color: var(--clr-accent);
+}

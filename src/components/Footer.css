@@ -1,5 +1,5 @@
 .footer {
-  background-color: #203A53;
+  background-color: var(--clr-primary-dark);
 }
 
 .footer__container {

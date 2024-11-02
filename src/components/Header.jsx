@@ -6,13 +6,8 @@ export const Header = () => {
     <header className="header">
       <div className="container header__container flex">
         <img className="header__logo" src={logoReact} alt="react-logo" />
-        <nav className='nav'>
-            <ul className="nav__list list-reset flex">
-                <li>Pricing</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
+        <h3 className='header__caption'>ReactFacts</h3>
+        <h4 className='header__descr'>React Course - Project 1</h4>
       </div>
     </header>
   )

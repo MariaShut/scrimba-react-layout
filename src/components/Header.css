@@ -1,10 +1,9 @@
 .header {
-  margin-bottom: 40px;
-  background-color: #F7F5F2;
+  margin-bottom: 57px;
+  background-color: var(--clr-primary-dark);
 }
 
 .header__container {
-  justify-content: space-between;
   align-items: center;
   padding: 20px 15px;
 }
@@ -15,5 +14,15 @@
 }
 
 .header__logo {
-  width: 60px;
+  width: 40px;
+  margin-right: 8px;
+}
+
+.header__caption {
+  color: var(--clr-accent);
+  font-size: 22px;
+}
+
+.header__descr {
+  margin-left: auto;
 }
